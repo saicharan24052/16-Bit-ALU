@@ -120,10 +120,8 @@ Alogorithm mod16(aa15,qq15,m,aa16,qq16);
 
 assign quo = qq16;
 
-//drcla mod66(aa16,m,out);
-//assign out = aa16+m; 
 adder modee(aa16,m,out);  
-   //  CLA mod66(aa16,m,out);
+
 mux16 mod67(aa16,out,aa16[15],out1);
   
   
