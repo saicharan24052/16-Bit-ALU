@@ -1,4 +1,14 @@
- 
+    module mux2(
+    
+    input A,
+    input B,
+    input S,
+    output Y
+);
+
+assign Y = S?B:A;
+
+endmodule 
 
 module barrel_Rshift_16bit (in, ctrl, out);
   input  [15:0] in;
